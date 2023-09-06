@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Task Manager
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,7 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-Task Management Application
 Overview
 This project is a task management application that allows users to organize their tasks into three status categories: To Do, Doing, and Done. It provides a user-friendly front-end interface and a back-end API to create, read, update, and delete tasks. The application is designed to be responsive, ensuring a seamless user experience on both desktop and mobile devices.
 
