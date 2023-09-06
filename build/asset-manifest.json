@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Alphansat-frontend/static/css/main.e9f17976.css",
+    "main.js": "/Alphansat-frontend/static/js/main.12ed6fbe.js",
+    "index.html": "/Alphansat-frontend/index.html",
+    "main.e9f17976.css.map": "/Alphansat-frontend/static/css/main.e9f17976.css.map",
+    "main.12ed6fbe.js.map": "/Alphansat-frontend/static/js/main.12ed6fbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9f17976.css",
+    "static/js/main.12ed6fbe.js"
+  ]
+}
