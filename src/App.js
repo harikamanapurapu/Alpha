@@ -20,13 +20,13 @@ const App = () => {
 
   const fetchTasks = async () => {
     try {
-      const responseToDo = await axios.get('http://localhost:4000/api/tasks/To%20Do');
+      const responseToDo = await axios.get('https://alphansat.onrender.com/api/tasks/To%20Do');
       setTasksToDo(responseToDo.data);
 
-      const responseDoing = await axios.get('http://localhost:4000/api/tasks/Doing');
+      const responseDoing = await axios.get('https://alphansat.onrender.com/api/tasks/Doing');
       setTasksDoing(responseDoing.data);
 
-      const responseDone = await axios.get('http://localhost:4000/api/tasks/Done');
+      const responseDone = await axios.get('https://alphansat.onrender.com/api/tasks/Done');
       setTasksDone(responseDone.data);
     } catch (error) {
       console.error('Error fetching tasks:', error);
@@ -38,10 +38,10 @@ const App = () => {
   const handleAddTask = async (newTask, status) => {
     try {
       if (editingTask) {
-        await axios.patch(`http://localhost:4000/api/tasks/${editingTask._id}`, { ...newTask, status });
+        await axios.patch(`https://alphansat.onrender.com/api/tasks/${editingTask._id}`, { ...newTask, status });
         setEditingTask(null);
       } else {
-        await axios.post('http://localhost:4000/api/tasks', { ...newTask, status });
+        await axios.post('https://alphansat.onrender.com/api/tasks', { ...newTask, status });
       }
       setShowAddForm(false);
       fetchTasks();
@@ -60,7 +60,7 @@ const App = () => {
 
   const handleDeleteTask = async (taskId, status) => {
     try {
-      await axios.delete(`http://localhost:4000/api/tasks/${taskId}`);
+      await axios.delete(`https://alphansat.onrender.com/api/tasks/${taskId}`);
       fetchTasks();
     } catch (error) {
       console.error('Error deleting task:', error);
