@@ -54,7 +54,7 @@ Contributions are welcome! Please follow our Contribution Guidelines.
 The live url link is here: https://harikamanapurapu.github.io/SREdutech-Frontend/
 
 
-The server code is here: https://github.com/harikamanapurapu/Alphansat
+The server code is here: https://github.com/harikamanapurapu/SREdutech
 
 This README file provides an overview of your project, its requirements, technologies used, installation instructions, usage guidelines, and other important information. You can customize it further based on your project's specific details and needs.
 
