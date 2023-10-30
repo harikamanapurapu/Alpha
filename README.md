@@ -51,10 +51,8 @@ Utilize the API endpoints for programmatic access to task data.
 Contributing
 Contributions are welcome! Please follow our Contribution Guidelines.
 
-The live url link is here: https://harikamanapurapu.github.io/Alpha/
+The live url link is here: https://harikamanapurapu.github.io/SREdutech-Frontend/
 
-<img width="960" alt="Screenshot 2023-09-06 164116" src="https://github.com/harikamanapurapu/Alpha/assets/120319406/ca5cdf3b-2d74-4771-9dd3-bd872c16b919">
-<img width="960" alt="Screenshot 2023-09-06 164141" src="https://github.com/harikamanapurapu/Alpha/assets/120319406/45c8b20d-586b-4384-ab1a-2233a00d9987">
 
 The server code is here: https://github.com/harikamanapurapu/Alphansat
 
